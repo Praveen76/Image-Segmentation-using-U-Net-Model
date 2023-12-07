@@ -1,8 +1,8 @@
-# Lung Segmentation using ResNet50 and DeepLabV3
+# Image Segmentation using U-Net Model
 
 ## Dataset:
 
-The project uses the Oxford Pets - IIIT dataset for model training. The dataset includes pet images, their classes, segmentation masks, and head regions of interest. However, for this specific experiment, we will utilize only the images and segmentation masks.
+The project utilizes the Oxford Pets - IIIT dataset for model training. This dataset includes pet images, their classes, segmentation masks, and regions of interest in the head. For this experiment, we will focus on using only the images and segmentation masks.
 
 The dataset comprises images of 37 pet breeds, with 200 images per breed (~100 each in the training and test splits). Each image is associated with a corresponding label and pixel-wise masks. The masks categorize each pixel into one of three classes:
 
@@ -41,13 +41,13 @@ Upon completing this project, you will gain the following learning objectives:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Praveen76/Lung-Segmentation-using-ResNet50-and-DeeplabV3.git
-cd Lung-Segmentation-using-ResNet50-and-DeeplabV3
+git clone https://github.com/Praveen76/Image_Segmentation_using_UNet_Model.git
+cd Image_Segmentation_using_UNet_Model
 ```
 
 2. Open and explore the Jupyter notebook `Image_Segmentation_using_UNet_Model.ipynb` to understand the project implementation.
 
-3. Execute the code cells within the notebook to experiment with lung segmentation using ResNet50, U-Net, and DeeplabV3+.
+3. Execute the code cells within the notebook to experiment with image segmentation using the U-Net model.
 
 4. Visualize the results and interpretations.
 
