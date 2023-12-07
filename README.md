@@ -1,1 +1,55 @@
-# Image-Segmentation-using-U-Net-Model
+# Lung Segmentation using ResNet50 and DeepLabV3
+
+## Dataset:
+
+The project uses the Oxford Pets - IIIT dataset for model training. The dataset includes pet images, their classes, segmentation masks, and head regions of interest. However, for this specific experiment, we will utilize only the images and segmentation masks.
+
+The dataset comprises images of 37 pet breeds, with 200 images per breed (~100 each in the training and test splits). Each image is associated with a corresponding label and pixel-wise masks. The masks categorize each pixel into one of three classes:
+
+- **Class 1:** Pixel belonging to the pet.
+- **Class 2:** Pixel bordering the pet.
+- **Class 3:** None of the above/surrounding pixel.
+
+## Learning Objectives:
+
+Upon completing this project, you will gain the following learning objectives:
+
+1. **Understand, Prepare, and Visualize Dataset:**
+    - Gain proficiency in understanding, preparing, and visualizing a dataset containing images and their corresponding masked images used for segmentation.
+
+2. **Understand U-Net Architecture:**
+    - Comprehend the encoder, bottleneck, and decoder regions of a U-Net architecture for image segmentation.
+
+3. **Build and Train U-Net Architecture:**
+    - Acquire skills to build and train a U-Net architecture for image segmentation tasks.
+
+4. **Create Masked Image (Prediction):**
+    - Implement the U-Net model to generate masked images as predictions for segmentation.
+
+5. **Evaluate Segmentation Performance:**
+    - Calculate accuracy scores like Intersection over Union (IoU) and Dice-Score commonly used in image segmentation evaluations.
+
+6. **Understand and Implement DeeplabV3+ Architecture:**
+    - Gain insights into the DeeplabV3+ architecture and implement it for image segmentation.
+
+## Files Contained in the Project:
+
+- **`Image_Segmentation_using_UNet_Model.ipynb`**: Jupyter notebook containing the project implementation and experimentation.
+
+## Usage:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Praveen76/Lung-Segmentation-using-ResNet50-and-DeeplabV3.git
+cd Lung-Segmentation-using-ResNet50-and-DeeplabV3
+```
+
+2. Open and explore the Jupyter notebook `Image_Segmentation_using_UNet_Model.ipynb` to understand the project implementation.
+
+3. Execute the code cells within the notebook to experiment with lung segmentation using ResNet50, U-Net, and DeeplabV3+.
+
+4. Visualize the results and interpretations.
+
+Feel free to contribute, report issues, or suggest improvements!
+
